@@ -431,7 +431,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
     if query.data == "Music_":
         query.message.edit_text(
             text=f"""
- **👀𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 🖤\n\n🌺𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 {dispatcher.bot.first_name} 🍷\n\n🌹𝐈 𝐀𝐦 𝐀𝐧 📀 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 🎭 𝐀𝐧𝐝 🌱 𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 🌼 𝐕𝐂 🍄 𝐏𝐥𝐚𝐲𝐞𝐫 📣 𝐖𝐢𝐭𝐡 🕙 24𝐱7 🌀 𝐀𝐜𝐭𝐢𝐯𝐞 » 𝐅𝐨𝐫 🗨️ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 ♨️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎸 𝐀𝐧𝐝 🏓 𝐆𝐫𝐨𝐮𝐩𝐬 🎻\n\n💐𝐅𝐞𝐞𝐥 😍 𝐋𝐚𝐠 📍 𝐅𝐫𝐞𝐞 😇 𝐓𝐨 🕊️ 𝐀𝐝𝐝 𝐌𝐞 𝐈𝐧 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 🤖 𝐀𝐧𝐝 🩸 𝐄𝐧𝐣𝐨𝐲 ❥︎ 𝐒𝐮𝐩𝐞𝐫 💥 𝐇𝐢𝐠𝐡 💫 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 🦞 𝐀𝐮𝐝𝐢𝐨 🎧 𝐀𝐧𝐝 🔊 𝐕𝐢𝐝𝐞𝐨 🌷** 
+ **👀𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 🖤\n\n🌺𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 {dispatcher.bot.first_name} 🍷\n\n🌹✍️  ɪ ᴀᴍ ᴀɴ  📀 ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ❤️🌟ꜱᴜᴩᴇʀꜰᴀꜱᴛ 🚀 ᴠᴄ 🎼 ᴩʟᴀyᴇʀ💕 ᴡɪᴛʜ 💥 14x7 🦋 ᴀᴄᴛɪᴠᴇ 𓽤️ ꜰᴏʀ ᴛᴇʟᴇɢʀᴀᴍ 🌺 ᴄʜᴀɴɴᴇʟ = @DX_info 🌸 ᴀɴᴅ 💫 ɢʀᴏᴜᴩ = @DXinfo143 ✍️.....🎧 ꜰᴇᴇʟ ʟᴀɢ ꜰʀᴇᴇ ᴛᴏ ᴀɴᴅ ᴍᴇ  🇮🇳✨ yᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ 💬 ᴇɴᴊᴏy🌀⚜ꜱᴜᴩᴇʀ ʜɪɢʜ qᴜᴀɴᴛɪᴛy ᴍᴜꜱɪᴄ 🎼 ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏꜱ ꜱᴏɴɢ  🎤** 
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -440,59 +440,59 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     [
                         
                 InlineKeyboardButton(
-                    text="『🍁 ᴀᴅᴍɪɴ 🍁』",
+                    text="🌀 ᴀᴅᴍɪɴ 🌀",
                     callback_data="Music_1",
                 ),
                 InlineKeyboardButton(
-                    text="『🔺 ᴀᴜᴛʜ 🔺』",
+                    text="🌀 ᴀᴜᴛʜ 🌀",
                     callback_data="Music_2",
                 ),
             
                 InlineKeyboardButton(
-                    text="『♨️ ʙʟᴀᴄᴋ ♨️』",
+                    text="🌀 ʙʟᴀᴄᴋ 🌀",
                     callback_data="Music_3",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="『📣 ɢᴄᴀꜱᴛ 📣』",
+                    text="💗 ɢᴄᴀꜱᴛ 💗",
                     callback_data="Music_4",
                 ),
                 InlineKeyboardButton(
-                    text="『🚫 ɢʙᴀɴ 🚫』",
+                    text="💗 ɢʙᴀɴ 💗",
                     callback_data="Music_5",
                 ),
                 InlineKeyboardButton(
-                    text="『🍷 ʟyʀɪᴄꜱ 🍷』",
+                    text="💗 ʟyʀɪᴄꜱ 💗",
                     callback_data="Music_6",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="『🎙️ ᴩʟᴀyʟɪꜱᴛ 🎙️』",
+                    text="🕊️ ᴩʟᴀyʟɪꜱᴛ 🕊️",
                     callback_data="Music_7",
                 ),
                 InlineKeyboardButton(
-                    text="『🎸 ᴠᴀɪᴄᴇ-ᴄʜᴀᴛ 🎸』",
+                    text="🕊️ ᴠᴀɪᴄᴇ-ᴄʜᴀᴛ 🕊️",
                     callback_data="Music_8",
                 ),
             ],
             [
            
                 InlineKeyboardButton(
-                    text="『🕹️ ᴩʟᴀy 🕹️』",
+                    text="🕊️ ᴩʟᴀy 🕊️",
                     callback_data="Music_9",
                 ),
             
             
                 InlineKeyboardButton(
-                    text="『🍸 ꜱᴜᴅᴏ 🍸』",
+                    text="🕊️ ꜱᴜᴅᴏ 🕊️",
                     callback_data="Music_10",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="『⚜️ ꜱᴛᴀʀᴛ ⚜️』",
+                    text="🤖 ꜱᴛᴀʀᴛ 🤖",
                     callback_data="Music_11",
                 ),
             ],
