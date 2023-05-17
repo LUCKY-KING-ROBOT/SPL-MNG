@@ -30,7 +30,7 @@ Star = [
     ],
 ]
 
-lol = "https://telegra.ph/file/26b5ac4684af8c68ebdce.jpg"
+lol = "https://telegra.ph/file/8d8d31fb1fc5bdf31328a.jpg"
 
 
 @pbot.on_message(filters.command("alive"))
@@ -48,7 +48,7 @@ async def restart(client, m: Message):
     await accha.delete()
     await asyncio.sleep(0.5)
     umm = await m.reply_sticker(
-        "CAACAgUAAxkDAAJHbmLuy2NEfrfh6lZSohacEGrVjd5wAAIOBAACl42QVKnra4sdzC_uKQQ"
+        "CAACAgEAAx0CdpiMHgACE09kY55BSf0CeuvZQXhoebtAM1kupwACTQMAAtk3qUW_qX1CCQNpdi8E"
     )
     await umm.delete()
     await asyncio.sleep(0.8)
