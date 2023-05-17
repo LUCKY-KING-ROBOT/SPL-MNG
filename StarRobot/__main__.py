@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
             first_name = update.effective_user.first_name
             
             x=update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAAI33mLYLNLilbRI-sKAAob0P7koTEJNAAIOBAACl42QVKnra4sdzC_uKQQ")
+                "CAACAgEAAx0CdpiMHgACE09kY55BSf0CeuvZQXhoebtAM1kupwACTQMAAtk3qUW_qX1CCQNpdi8E")
             x.delete()
             usr = update.effective_user
             lol = update.effective_message.reply_text(
@@ -431,7 +431,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
     if query.data == "Music_":
         query.message.edit_text(
             text=f"""
- **👀𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 🖤\n\n🌺𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 {dispatcher.bot.first_name} 🍷\n\n🌹✍️  ɪ ᴀᴍ ᴀɴ  📀 ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ❤️\n🌟ꜱᴜᴩᴇʀꜰᴀꜱᴛ 🚀 ᴠᴄ 🎼 ᴩʟᴀyᴇʀ💕 ᴡɪᴛʜ 💥\n 14x7 🦋 ᴀᴄᴛɪᴠᴇ 𓽤️ ꜰᴏʀ ᴛᴇʟᴇɢʀᴀᴍ 🌺 ᴄʜᴀɴɴᴇʟ  🌸\n ᴀɴᴅ 💫 ɢʀᴏᴜᴩ  ✍️.....🎧 ꜰᴇᴇʟ ʟᴀɢ ꜰʀᴇᴇ ᴛᴏ ᴀɴᴅ ᴍᴇ \n 🇮🇳✨ yᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ 💬 ᴇɴᴊᴏy🌀\n⚜ꜱᴜᴩᴇʀ ʜɪɢʜ qᴜᴀɴᴛɪᴛy ᴍᴜꜱɪᴄ 🎼 \nᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏꜱ ꜱᴏɴɢ  🎤** 
+ **👀𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 🖤\n\n💗 ᴡᴇʟʟᴄᴏᴍᴇ  💗 ᴛᴏ 🤟{dispatcher.bot.first_name} 🍷\n\n🎼🚬 ɪ ᴀᴍ ʟᴜᴄᴋy ʀᴏʙᴏᴛ 🚬🎼\n\n🌀 ɪ ᴀᴍ ᴀɴ  📀 ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ❤️\n\n🌀 ꜱᴜᴩᴇʀꜰᴀꜱᴛ ᴠᴄ 🎼 ᴩʟᴀyᴇʀ 💕\n\n🌀 ᴡɪᴛʜ💥 14x7 🦋 ᴀᴄᴛɪᴠᴇ 🦋\n\n🌀 ꜰᴏʀ ᴛᴇʟᴇɢʀᴀᴍ 🌺 ᴄʜᴀɴɴᴇʟ 🌸\n\n🌀 ᴀɴᴅ 💫 ɢʀᴏᴜᴩ  ✍️...........🎧\n\n🌀 ꜰᴇᴇʟ ʟᴀɢ ꜰʀᴇᴇ ᴛᴏ ᴀɴᴅ ᴍᴇ  🇮🇳\n\n🌀 yᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ 💬 ᴇɴᴊᴏy🎧\n\n🌀  ꜱᴜᴩᴇʀ ʜɪɢʜ qᴜᴀɴᴛɪᴛy  💗\n\n🌀 ᴍᴜꜱɪᴄ 🎼 ᴀᴜᴅɪᴏ ᴀɴᴅ 🇮🇳\n\n🌀 ᴠɪᴅᴇᴏꜱ ꜱᴏɴɢ ɪ ʟᴏᴠᴇ yᴏu 🤣 🎤** 
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -850,7 +850,7 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🍷𝐒𝐭𝐚𝐫𝐭 𝐈𝐧 𝐏𝐫𝐢𝐯𝐚𝐭𝐞🍷",
+                            text="⚜️ ʟᴜᴄᴋy ᴩʀɪᴠᴀᴛᴇ ʜᴇʀᴇ ⚜️",
                             url="https://t.me/{}?start=help".format(
                                 context.bot.username
                             ),
@@ -858,7 +858,7 @@ def get_help(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🌹𝐎𝐩𝐞𝐧 𝐇𝐞𝐫𝐞🌹️",
+                            text="⚡ʟᴜᴄᴋy ᴏᴩᴇɴ ʜᴇʀᴇ⚡",
                             callback_data="help_back",
                         )
                     ],
