@@ -431,7 +431,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
     if query.data == "Music_":
         query.message.edit_text(
             text=f"""
- **👀𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 🖤\n\n🌺𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 {dispatcher.bot.first_name} 🍷\n\n🌹✍️ɪ ᴀᴍ ᴀɴ📀ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ❤️\n🌟ꜱᴜᴩᴇʀꜰᴀꜱᴛ🚀ᴠc🎼ᴩʟᴀyᴇʀ�\nᴡɪᴛʜ💥14x🦋ᴀᴄᴛɪᴠᴇ𓽤️ꜰᴏʀ ᴛᴇʟᴇɢʀ🌺\nᴄʜᴀɴɴᴇʟ = @DX_info 🌸ᴀɴᴅ💫ɢʀᴏᴜᴩ = @DXinfo143 ✍️.....\n�ꜰᴇᴇʟ ʟᴀɢ ꜰʀᴇᴇ ᴛᴏ ᴀɴᴅ ᴍᴇ🇮🇳✨yᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ 💬 ᴇɴᴊᴏy🌀\n⚜ꜱᴜᴩᴇʀ ʜɪɢʜ qᴜᴀɴᴛɪᴛy ᴍᴜꜱɪᴄ🎼ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏꜱ ꜱᴏɴɢ🎤** 
+ **👀𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 🖤\n\n🌺𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 {dispatcher.bot.first_name} 🍷\n\n🌹✍️  ɪ ᴀᴍ ᴀɴ  📀 ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ❤️\n🌟ꜱᴜᴩᴇʀꜰᴀꜱᴛ 🚀 ᴠᴄ 🎼 ᴩʟᴀyᴇʀ💕 ᴡɪᴛʜ 💥\n 14x7 🦋 ᴀᴄᴛɪᴠᴇ 𓽤️ ꜰᴏʀ ᴛᴇʟᴇɢʀᴀᴍ 🌺 ᴄʜᴀɴɴᴇʟ  🌸\n ᴀɴᴅ 💫 ɢʀᴏᴜᴩ  ✍️.....🎧 ꜰᴇᴇʟ ʟᴀɢ ꜰʀᴇᴇ ᴛᴏ ᴀɴᴅ ᴍᴇ \n 🇮🇳✨ yᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ 💬 ᴇɴᴊᴏy🌀\n⚜ꜱᴜᴩᴇʀ ʜɪɢʜ qᴜᴀɴᴛɪᴛy ᴍᴜꜱɪᴄ 🎼 \nᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏꜱ ꜱᴏɴɢ  🎤** 
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
